@@ -5,7 +5,7 @@ function selectOption(option) {
     // Check which option was clicked
     if (option === 'continue') {
         // Flash rainbow colors
-        flashRainbowColors(function() {
+        {
             document.getElementById('statement').style.display = 'none'; // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
         });
